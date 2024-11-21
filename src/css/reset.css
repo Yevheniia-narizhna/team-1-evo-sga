@@ -12,6 +12,9 @@ html {
 
 body {
   margin: 0;
+  background-color: #2a4b4e;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 h1,
