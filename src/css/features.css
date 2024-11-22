@@ -1,0 +1,19 @@
+.section_foto {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto {
+  display: block;
+  width: 288px;
+  height: 258px;
+}
+.img {
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .foto {
+    width: 364px;
+  }
+}
