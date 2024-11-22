@@ -1,6 +1,7 @@
 .section_foto {
   display: flex;
   flex-direction: column;
+  gap: 24px;
 }
 
 .foto {
@@ -12,8 +13,30 @@
   border-radius: 20px;
 }
 
+.title {
+  color: #f5f5dc;
+  padding-top: 32px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.text {
+  color: #f5f5dc;
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
 @media screen and (min-width: 1200px) {
+  .section_foto {
+    width: 1200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .foto {
+    width: 364px;
+  }
+  li {
     width: 364px;
   }
 }

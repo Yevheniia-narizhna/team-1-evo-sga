@@ -15,6 +15,7 @@ body {
   background-color: #2a4b4e;
   max-width: 1200px;
   margin: 0 auto;
+  /* font-family: 'Instrument Sans', sans-serif; */
 }
 
 h1,
@@ -27,7 +28,12 @@ p,
 li {
   margin: 0;
 }
-
+h1 {
+  weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #daa520;
+}
 ul {
   margin: 0;
   padding: 0;
@@ -51,18 +57,18 @@ img {
 
 @media screen and (min-width: 320px) {
   .container {
-    width: 288px;
+    width: 320px;
     padding-left: 16px;
     padding-right: 16px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1264px;
     padding-left: 32px;
     padding-right: 32px;
-    margin: 0 auto;
+    /* margin: 0; */
   }
 }
