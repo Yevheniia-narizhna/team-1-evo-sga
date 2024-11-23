@@ -1,0 +1,13 @@
+.header {
+  min-width: 320px;
+  height: 72px;
+  background-color: #8b2d2d;
+  padding: 12px 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+svg.header-icon-policy {
+  stroke: aquamarine;
+}
