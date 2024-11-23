@@ -24,3 +24,11 @@ document.addEventListener('click', function (event) {
     modal.style.display = 'none';
   }
 });
+
+//pages//
+const tab = document.querySelector('.btn-footer');
+
+const handleClick = e => {
+  window.open('page-3.html', '_blank');
+};
+tab.addEventListener('click', handleClick);
