@@ -1,4 +1,4 @@
-import swiperGallery from './js/gallery';
+import { swiperGallery } from './js/gallery';
 import Accordion from 'accordion-js';
 import 'accordion-js/dist/accordion.min.css';
 

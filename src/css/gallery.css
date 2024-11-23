@@ -1,5 +1,8 @@
-/* .title-gallery {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 600;
-} */
+.gall-container {
+  padding-bottom: 64px;
+}
+@media screen and (min-width: 1200px) {
+  .gall-container {
+    padding-bottom: 96px;
+  }
+}

@@ -1,26 +1,48 @@
 <section id="gallery">
-  <div class="container">
+  <div class="container gall-container">
     <h1 class="title-gallery">05 Gallery</h1>
-    <div class="swiper swiper-gallery">
-      <!-- Additional required wrapper -->
-      <div class="swiper-wrapper wrap-proj">
-        <!-- Slides -->
-        <div class="swiper-slide slide-proj">Slide 1</div>
-        <div class="swiper-slide slide-proj">Slide 2</div>
-        <div class="swiper-slide slide-proj">Slide 3</div>
-        <div class="swiper-slide slide-proj">Slide 4</div>
-        <div class="swiper-slide slide-proj">Slide 5</div>
-        ...
+    <div>
+      <div class="swiper swiper-gallery">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper wrap-proj">
+          <!-- Slides -->
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-1-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-2-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-3-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-4-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-5-x1.jpg" />
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="btns-swiper">
+          <div class="swiper-button-prev btn-proj-arr-l">
+            <svg class="arrov-l-proj" width="24" height="24">
+              <use href="../img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next btn-proj-arr-r">
+            <svg class="arrov-r-proj" width="24" height="24">
+              <use href="../img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
       </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
-
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
     </div>
   </div>
 </section>

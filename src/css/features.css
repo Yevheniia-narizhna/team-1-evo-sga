@@ -2,8 +2,11 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  justify-content: center;
 }
-
+.contain-features {
+  padding-bottom: 64px;
+}
 .foto {
   display: block;
   width: 288px;
@@ -26,17 +29,25 @@
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
+  width: 288px;
 }
 @media screen and (min-width: 1200px) {
+  .contain-features {
+    padding-bottom: 96px;
+  }
   .section_foto {
     width: 1200px;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: -32px;
   }
   .foto {
     width: 364px;
   }
-  li {
+  .text {
     width: 364px;
   }
+  /* li {
+    width: 364px;
+  } */
 }

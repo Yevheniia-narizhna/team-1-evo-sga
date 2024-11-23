@@ -18,7 +18,7 @@ export function swiperGallery() {
     keyboard: true,
     slidesPerView: 1,
     breakpoints: {
-      768: {
+      375: {
         slidesPerView: 2,
         spaceBetween: 16,
       },
