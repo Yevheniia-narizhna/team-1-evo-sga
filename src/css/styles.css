@@ -8,6 +8,8 @@
 @import url('./mob-menu.css');
 @import url('./how-to-play.css');
 @import url('./footer.css');
+@import url('./page2.css');
+@import url('./page3.css');
 
 :root {
   font-family: 'Instrument Sans', sans-serif;
