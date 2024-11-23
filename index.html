@@ -13,9 +13,9 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/team-1-evo-sga/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/team-1-evo-sga/assets/vendor-8f98089f.js">
-    <link rel="stylesheet" href="/team-1-evo-sga/assets/vendor-8255b786.css">
-    <link rel="stylesheet" href="/team-1-evo-sga/assets/styles-edf20700.css">
+    <link rel="modulepreload" crossorigin href="/team-1-evo-sga/assets/vendor-1fce7c60.js">
+    <link rel="stylesheet" href="/team-1-evo-sga/assets/vendor-6b1a4e74.css">
+    <link rel="stylesheet" href="/team-1-evo-sga/assets/styles-2f54c9a1.css">
   </head>
   <body>
     <header class="header">
@@ -430,7 +430,7 @@
   </div>
 </section>
 
-    <section>
+    <section id="features">
   <div class="container contain-features">
     <h1>Features 04</h1>
     <ul class="section_foto">
@@ -588,22 +588,71 @@
   </div>
 </section>
 
-    <section>
-  <div class="container">
+    <section id="gallery">
+  <div class="container gall-container">
     <h1 class="title-gallery">05 Gallery</h1>
+    <div>
+      <div class="swiper swiper-gallery">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper wrap-proj">
+          <!-- Slides -->
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-1-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-2-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-3-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-4-x1.jpg" />
+          </div>
+          <div class="swiper-slide slide-proj">
+            <img src="../img/gallery/pic-5-x1.jpg" />
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="btns-swiper">
+          <div class="swiper-button-prev btn-proj-arr-l">
+            <svg class="arrov-l-proj" width="24" height="24">
+              <use href="../img/sprite.svg#icon-arrow-left"></use>
+            </svg>
+          </div>
+          <div class="swiper-button-next btn-proj-arr-r">
+            <svg class="arrov-r-proj" width="24" height="24">
+              <use href="../img/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
   </div>
 </section>
 
-    <section>
-  <div class="container">
+    <section id="home">
+  <div class="container home-container">
     <h1 class="title-home">06 Home</h1>
-    <p class="text-home">
-      Criminal Archives 2: Extra – <br />
-      Solve the Mystery, Unveil the Truth!
-    </p>
-    <button class="btn-home"></button>
+    <div class="cont-home">
+      <p class="text-home">
+        Criminal Archives 2: Extra – <br />
+        Solve the Mystery, Unveil the Truth!
+      </p>
+      <button class="btn-home">
+    <img class="btn-home-img" src="../img/home/play.png">
+    </img>
+</button>
+    </div>
   </div>
 </section>
+
 
     <section class="footer">
   <div class="container">
