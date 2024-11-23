@@ -3,6 +3,9 @@
   height: 72px;
   background-color: #8b2d2d;
   padding: 12px 16px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .section-header {
@@ -25,7 +28,7 @@ button.mobile-btn {
   border: none;
 }
 
-.icon-menu {
+svg.header-icon-menu {
   stroke: #daa520;
 }
 
@@ -45,11 +48,12 @@ button.mobile-btn {
   top: 0;
   right: 0;
   background-color: white;
-  padding: 20px;
+  padding: 68px 16px 38px 16px;
   background: #8b2d2d;
   width: 221px;
   height: 568px;
   color: #f5f5dc;
+  text-align: center;
 }
 
 .closeBtn {
@@ -59,14 +63,22 @@ button.mobile-btn {
   position: absolute;
   top: 10px;
   right: 10px;
+  background: #8b2d2d;
+  border: none;
 }
 
-@media (min-width: 1200px) {
+.header-nav-ul {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  gap: 26px;
+}
+
+.header-li {
+  padding: 11px 8px;
+}
+
+@media screen and (min-width: 1200px) {
   .header {
-    /* font-family: Instrument Sans; */
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;

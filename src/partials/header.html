@@ -12,10 +12,8 @@
       <p class="header-logo-text">Criminal Archives 2: Extra</p>
     </div>
     <button type="button" id="openModalBtn" class="mobile-btn">
-      <svg class="icon-menu" width="33" height="33">
+      <svg class="header-icon-menu" width="33" height="33">
         <use href="/img/sprite.svg#icon-menu"></use>
-
-        <!-- <use href="/img/sprite.svg#icon-menu"></use> -->
       </svg>
     </button>
     <nav class="header-nav">
@@ -46,13 +44,7 @@
           >
         </li>
         <li class="header-li">
-          <a
-            class="header-menu-link"
-            href="#home
-
-        "
-            >Home
-          </a>
+          <a class="header-menu-link" href="#home">Home </a>
         </li>
       </ul>
     </nav>
@@ -60,7 +52,12 @@
 
   <div id="modal" class="modal">
     <div class="modal-content">
-      <span class="closeBtn" id="closeModalBtn">&times;</span>
+      <button type="button" id="closeModalBtn" class="closeBtn">
+        <svg class="header-icon-menu" width="33" height="33">
+          <use href="/img/sprite.svg#icon-x-1"></use>
+        </svg>
+      </button>
+      <!-- <span class="closeBtn" id="closeModalBtn">&times;</span> -->
       <ul class="header-nav-ul">
         <li class="header-li">
           <a class="header-menu-link" href="#faq">FAQ</a>
@@ -100,17 +97,3 @@
     </div>
   </div>
 </header>
-
-<!-- <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header> -->
