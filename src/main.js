@@ -26,9 +26,9 @@ document.addEventListener('click', function (event) {
 });
 
 //pages//
-const tab = document.querySelector('.btn-footer');
+// const tab = document.querySelector('.btn-footer');
 
-const handleClick = e => {
-  window.open('page-3.html', '_blank');
-};
-tab.addEventListener('click', handleClick);
+// const handleClick = e => {
+//   window.open('page-3.html', '_blank');
+// };
+// tab.addEventListener('click', handleClick);
