@@ -14,6 +14,20 @@
   text-align: center;
   width: 288px;
   height: 288px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+.btn-home {
+  width: px;
+  height: 90px;
+  background-color: #8b2d2d;
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+.btn-home-img {
+  width: 288px;
+  height: 90px;
 }
 
 @media screen and (min-width: 1200px) {
