@@ -13,12 +13,16 @@ export function swiperGallery() {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
     cssMode: true,
     mousewheel: false,
     keyboard: true,
     slidesPerView: 1,
     breakpoints: {
-      375: {
+      1200: {
         slidesPerView: 2,
         spaceBetween: 16,
       },

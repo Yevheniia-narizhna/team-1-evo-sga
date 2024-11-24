@@ -5,4 +5,46 @@
   .gall-container {
     padding-bottom: 96px;
   }
+  /* .arrov-l-proj,
+  .arrov-r-proj {
+    width: 64px;
+    height: 64px;
+  } */
+  .swiper-button-prev.btn-proj-arr-l,
+  .swiper-button-next.btn-proj-arr-r {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.swiper-button-prev.btn-proj-arr-l,
+.swiper-button-next.btn-proj-arr-r {
+  display: block;
+  position: static;
+}
+.btns-swiper {
+  display: flex;
+  align-items: baseline;
+  /* gap: 40px; */
+  padding-top: 25px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-button-next.btn-proj-arr-r::after,
+.swiper-container-rtl .swiper-button-prev.btn-proj-arr-l:after {
+  content: '';
+}
+
+.swiper-button-prev.btn-proj-arr-l::after,
+.swiper-container-rtl .swiper-button-prev.btn-proj-arr-l:after {
+  content: '';
+}
+:root {
+  --swiper-navigation-size: inherit !important;
+}
+.arrov-l-proj use,
+.arrov-r-proj use {
+  /* stroke: #daa520; */
+  fill: #daa520;
 }
