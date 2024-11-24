@@ -5,12 +5,12 @@
   /* justify-content: center;
   align-items: center; */
 }
-.cont-foot {
+/* .cont-foot {
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-}
+} */
 .footer-cont {
   display: flex;
   flex-direction: column;
@@ -30,4 +30,18 @@
 }
 .text-footer {
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .text-div {
+    display: flex;
+  }
+  .footer-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-links {
+    flex-direction: row;
+    gap: 6px;
+  }
 }
