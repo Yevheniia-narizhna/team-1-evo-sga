@@ -15,10 +15,25 @@ body {
   background-color: #2a4b4e;
   max-width: 1200px;
   margin: 0 auto;
-  /* font-family: 'Instrument Sans', sans-serif; */
+  background-image: url('../img/icons-background/icon _search_.png'),
+    url('../img/icons-background/arrow-left big.png'),
+    url('../img/icons-background/icon _puzzle_.png');
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 408px 408px, 408px 408px, 580px 580px;
+  background-position: 160px 20px, 60px 2800px, -75px 7240px;
 }
-
-h1,
+/* body::before {
+  content: '';
+  position: absolute;
+  top: 2000px;
+  left: 50px;
+  width: 408px;
+  height: 408px;
+  background-image: url('../img/icons-background/arrow-left big.png');
+  background-size: 408px 408px;
+  background-repeat: no-repeat;
+  transform: rotate(90deg); /* Поворачиваем изображение на 90 градусов */
+*/ h1,
 h2,
 h3,
 h4,
@@ -50,6 +65,7 @@ img {
   height: auto;
 }
 .title-num {
+  margin: 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 54px;
