@@ -1,28 +1,6 @@
-.container-game-des {
+.section-game-des {
   width: 100%;
-  padding-bottom: 64px;
-}
-
-.game-des-title {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 54px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #daa520;
-  padding-bottom: 32px;
-}
-
-.game-des-span {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 48px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #daa520;
-  padding-left: 16px;
+  padding: 64px 0;
 }
 
 .game-des-text {
@@ -44,23 +22,12 @@
     width: 1140px;
   }
 
-  .game-des-title {
-    font-size: 92px;
-    font-weight: 700;
-    line-height: 100px;
-  }
-
-  .game-des-span {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 64px;
-  }
-
   .game-des-text {
     padding: 0 97px;
   }
 
   .game-des-img {
     display: flex;
+    justify-content: center;
   }
 }
