@@ -1,6 +1,6 @@
 .faq-section {
   width: 100%;
-  padding: 40px 16px 64px 16px;
+  padding: 40px 0 64px 0;
 }
 
 .faq-icon path {
@@ -9,27 +9,6 @@
 
 .faq-title {
   display: none;
-}
-
-.faq-title-p {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 54px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #daa520;
-}
-
-.faq-title-span {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 48px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #daa520;
-  padding-left: 16px;
 }
 
 .faq-container-img {
@@ -115,7 +94,7 @@ svg.faq-icon {
 
 @media screen and (min-width: 1200px) {
   .faq-section {
-    padding: 64px 30px 96px 30px;
+    padding: 64px 0 96px 0;
   }
 
   .faq-wrap {
@@ -124,28 +103,14 @@ svg.faq-icon {
     gap: 119px;
   }
 
-  .faq-title-p {
-    font-size: 92px;
-    font-weight: 700;
-    line-height: 100px;
-  }
-
-  .faq-title-span {
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 64px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    padding-left: 16px;
-  }
-
   .faq-container-1 {
     width: 267px;
   }
 
   .faq-container-img {
     display: flex;
+    width: 234px;
+    height: 481px;
   }
 
   .faq-container {
