@@ -25,6 +25,12 @@
   border-radius: 10px;
   padding: 0;
 }
+.btn-home:hover {
+  background-color: #812a2a;
+}
+.btn-home:focus {
+  background-color: #511a1a;
+}
 .btn-home-img {
   width: 288px;
   height: 90px;

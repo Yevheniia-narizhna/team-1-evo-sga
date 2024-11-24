@@ -1,4 +1,33 @@
 .footer {
   background-color: #8b2d2d;
   padding: 16px 32px 16px 32px;
+  margin: 0 auto;
+  /* justify-content: center;
+  align-items: center; */
+}
+.cont-foot {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.footer-a {
+  display: inline-flex;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.text-footer {
+  text-align: center;
 }
