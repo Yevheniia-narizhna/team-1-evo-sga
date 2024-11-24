@@ -4,9 +4,13 @@ import 'accordion-js/dist/accordion.min.css';
 
 swiperGallery();
 
+//accordion
+
 const accordionFaq = new Accordion('.accordion-container');
 
 export default accordionFaq;
+
+//Modal
 
 document.getElementById('openModalBtn').addEventListener('click', function () {
   document.getElementById('modal').style.display = 'block';
@@ -14,6 +18,13 @@ document.getElementById('openModalBtn').addEventListener('click', function () {
 
 document.getElementById('closeModalBtn').addEventListener('click', function () {
   document.getElementById('modal').style.display = 'none';
+});
+
+const menuLinks = document.querySelectorAll('.header-li');
+menuLinks.forEach(function (link) {
+  link.addEventListener('click', function () {
+    document.getElementById('modal').style.display = 'none';
+  });
 });
 
 document.addEventListener('click', function (event) {

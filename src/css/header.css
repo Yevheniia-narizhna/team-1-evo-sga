@@ -6,6 +6,17 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-li:hover {
+  color: #d1ce99;
+}
+
+.header-li:active {
+  color: #daa520;
 }
 
 .section-header {
@@ -24,12 +35,18 @@
 }
 
 button.mobile-btn {
-  background: #8b2d2d;
   border: none;
+  background: transparent;
 }
 
 svg.header-icon-menu {
   stroke: #daa520;
+}
+
+.header-icon-menu-close {
+  color: #daa520;
+  stroke: #daa520;
+  fill: #daa520;
 }
 
 .modal {
