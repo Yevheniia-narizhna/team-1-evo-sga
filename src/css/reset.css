@@ -32,7 +32,7 @@ body {
   background-image: url('../img/icons-background/arrow-left big.png');
   background-size: 408px 408px;
   background-repeat: no-repeat;
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
 */
 h1,
 h2,
@@ -50,6 +50,7 @@ ul {
   padding: 0;
   list-style: none;
 }
+
 body h3,
 h2,
 p {
