@@ -19,24 +19,27 @@ use {
 }
 
 .container-policy {
-  padding: 40px 0 88px 0;
+  padding: 40px 0 0 0;
 }
 
-.policy-wrap {
+/* .policy-wrap {
   margin-bottom: 40px;
-}
+} */
 
 .policy-title {
   color: #f5f5dc;
   padding-left: 0;
   padding-bottom: 32px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+.title-marg {
+  padding-top: 0;
 }
 
 .policy-text,
@@ -47,6 +50,7 @@ use {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  padding-bottom: 40px;
 }
 
 .policy-ul {
@@ -131,6 +135,7 @@ use {
   background-repeat: no-repeat;
   background-size: 408px 408px;
   background-position: 20px 630px;
+  margin-bottom: 40px;
 }
 
 .pol-back-4 {
@@ -158,4 +163,5 @@ use {
   background-repeat: no-repeat;
   background-size: 580px 580px;
   background-position: -160px 870px;
+  padding-bottom: 88px;
 }
