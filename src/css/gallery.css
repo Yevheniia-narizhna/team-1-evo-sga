@@ -26,7 +26,7 @@
   display: flex;
   align-items: baseline;
   /* gap: 40px; */
-  padding-top: 25px;
+  padding-top: 24px;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -47,4 +47,36 @@
 .arrov-r-proj use {
   /* stroke: #daa520; */
   fill: #daa520;
+}
+
+.swiper-pagination-bullet-active {
+  background: #daa520 !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  --swiper-pagination-bottom: 16px !important;
+}
+.swiper-pagination-bullet {
+  --swiper-pagination-bullet-horizontal-gap: 12px !important;
+  width: 12px !important;
+  height: 12px !important;
+  opacity: 1 !important;
+  --swiper-pagination-bullet-inactive-color: #f5f5dc !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .swiper-pagination-bullet {
+    --swiper-pagination-bullet-horizontal-gap: 16px !important;
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    --swiper-pagination-bottom: 10px !important;
+  }
 }

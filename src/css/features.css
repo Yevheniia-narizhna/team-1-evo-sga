@@ -31,6 +31,7 @@
   font-weight: 400;
   width: 288px;
 }
+
 @media screen and (min-width: 1200px) {
   .contain-features {
     padding-bottom: 96px;
@@ -49,7 +50,4 @@
   .text {
     width: 364px;
   }
-  /* li {
-    width: 364px;
-  } */
 }

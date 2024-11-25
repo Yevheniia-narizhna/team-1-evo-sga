@@ -43,3 +43,10 @@ document.addEventListener('click', function (event) {
 //   window.open('page-3.html', '_blank');
 // };
 // tab.addEventListener('click', handleClick);
+
+//button//
+const button = document.getElementById('button-google');
+
+button.addEventListener('click', function () {
+  button.disabled = true;
+});
