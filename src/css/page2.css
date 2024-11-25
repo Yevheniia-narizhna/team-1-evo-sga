@@ -89,9 +89,16 @@ svg.header-icon-policy {
     text-align: center;
   }
 
-  .policy-text,
-  .policy-ul {
+  .policy-text {
     padding-left: 97px;
     padding-right: 97px;
+  }
+
+  .policy-ul {
+    padding-left: 116px;
+  }
+
+  .policy-wrap-margin {
+    margin-bottom: 0;
   }
 }

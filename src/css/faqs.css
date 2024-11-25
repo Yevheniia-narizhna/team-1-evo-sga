@@ -1,3 +1,11 @@
+/* body h3,
+h2,
+p {
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-block-start: 0;
+} */
+
 .faq-section {
   width: 100%;
   padding: 40px 0 64px 0;
@@ -25,10 +33,6 @@
 
 .faq-item:last-child.is-active .faq-item-text {
   padding-bottom: 20px;
-}
-
-.faq-item.is-active .faq-item-text {
-  padding: 0 0 12px 0;
 }
 
 .faq-item-title {
