@@ -1,11 +1,3 @@
-/* body h3,
-h2,
-p {
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-block-start: 0;
-} */
-
 .faq-section {
   width: 100%;
   padding: 40px 0 64px 0;
@@ -31,10 +23,6 @@ p {
   border-bottom: 1px solid #daa520;
 }
 
-.faq-item:last-child.is-active .faq-item-text {
-  padding-bottom: 20px;
-}
-
 .faq-item-title {
   display: flex;
   flex-direction: row;
@@ -51,8 +39,12 @@ p {
   padding: 20px 0;
 }
 
-.faq-list .faq-item .faq-item-title {
+/* .faq-list .faq-item .faq-item-title {
   padding: 12px 0 32px 0;
+} */
+
+.faq-item {
+  padding: 24px 0 12px 0;
 }
 
 button#ac-trigger-0.btn-item.ac-trigger,
@@ -122,6 +114,7 @@ svg.faq-icon {
   }
 
   .faq-item {
+    padding: 44px 0 12px 0;
     width: auto;
     border: none;
   }

@@ -42,10 +42,6 @@ svg.how-to-play-icon {
 }
 
 @media screen and (min-width: 1200px) {
-  .container-how-to-play {
-    width: 1140px;
-  }
-
   .how-to-play-ul {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -58,5 +54,6 @@ svg.how-to-play-icon {
 
   .how-to-play-li-wrap {
     padding-bottom: 0;
+    width: 486px;
   }
 }
