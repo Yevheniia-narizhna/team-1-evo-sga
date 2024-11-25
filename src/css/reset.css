@@ -16,11 +16,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-image: url('../img/icons-background/icon _search_.png'),
-    url('../img/icons-background/arrow-left big.png'),
+    url('../img/icons-background/arrow-left90big.png'),
     url('../img/icons-background/icon _puzzle_.png');
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 408px 408px, 408px 408px, 580px 580px;
-  background-position: 160px 20px, 60px 2800px, -75px 7240px;
+  background-size: 580px 580px, 418px 418px, 560px 560px;
+  background-position: 124px 0px, 50px 2220px, -65px 6400px;
 }
 /* body::before {
   content: '';
