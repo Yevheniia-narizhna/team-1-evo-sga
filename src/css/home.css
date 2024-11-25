@@ -1,7 +1,9 @@
 .home-container {
   padding-bottom: 64px;
-  background-image: url('../img/icons-background/arrow-left90big.png');
+  background-image: url('../img/icons-background/icon _puzzle_.png');
   background-repeat: no-repeat;
+  background-size: 570px 570px;
+  background-position: -64px -6px;
 }
 .cont-home {
   display: flex;

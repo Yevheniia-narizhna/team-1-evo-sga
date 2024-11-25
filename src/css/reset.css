@@ -15,14 +15,6 @@ body {
   background-color: #2a4b4e;
   max-width: 1200px;
   margin: 0 auto;
-  background-image: url('../img/icons-background/icon _search_.png'),
-    url('../img/icons-background/arrow-left90big.png'),
-    url('../img/icons-background/icon _puzzle_.png');
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-size: 580px 580px, 418px 418px, 560px 560px;
-  background-position: 124px 10vh, 62px 2220px, -65px 6400px;
-  /* background-attachment: fixed; */
-  background-attachment: scroll;
 }
 
 /* body::before {
@@ -46,6 +38,13 @@ h6,
 p,
 li {
   margin: 0;
+}
+body h3,
+h2,
+p {
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-block-start: 0;
 }
 
 ul {
