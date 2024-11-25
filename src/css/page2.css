@@ -14,6 +14,9 @@ svg.header-icon-policy {
   stroke: #daa520;
   align-items: center;
 }
+use {
+  fill: transparent;
+}
 
 .container-policy {
   padding: 40px 0 88px 0;
@@ -27,6 +30,7 @@ svg.header-icon-policy {
   color: #f5f5dc;
   padding-left: 0;
   padding-bottom: 32px;
+  padding-top: 40px;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
@@ -101,4 +105,57 @@ svg.header-icon-policy {
   .policy-wrap-margin {
     margin-bottom: 0;
   }
+}
+
+.pol-back-1 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('../img/icons-background/icon _search_.png');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: -40px 100px;
+}
+.pol-back-2 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('../img/icons-background/icon _puzzle_.png');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: -300px 60px;
+}
+
+.pol-back-3 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('../img/icons-background/arrow-down.png');
+  background-repeat: no-repeat;
+  background-size: 408px 408px;
+  background-position: 20px 630px;
+}
+
+.pol-back-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('../img/icons-background/search-big-top.png');
+  background-repeat: no-repeat;
+  background-size: 408px 408px;
+  background-position: 20px 630px;
+}
+
+.pol-back-5 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('../img/icons-background/icon _puzzle_.png');
+  background-repeat: no-repeat;
+  background-size: 480px 480px;
+  background-position: 20px 850px;
+}
+
+.pol-back-6 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('../img/icons-background/search-big-down.png');
+  background-repeat: no-repeat;
+  background-size: 580px 580px;
+  background-position: -160px 870px;
 }
