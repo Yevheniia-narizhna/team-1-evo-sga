@@ -20,8 +20,11 @@ body {
     url('../img/icons-background/icon _puzzle_.png');
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-size: 580px 580px, 418px 418px, 560px 560px;
-  background-position: 124px 0px, 50px 2220px, -65px 6400px;
+  background-position: 124px 10vh, 62px 2220px, -65px 6400px;
+  /* background-attachment: fixed; */
+  background-attachment: scroll;
 }
+
 /* body::before {
   content: '';
   position: absolute;

@@ -1,5 +1,7 @@
 .home-container {
   padding-bottom: 64px;
+  background-image: url('../img/icons-background/arrow-left90big.png');
+  background-repeat: no-repeat;
 }
 .cont-home {
   display: flex;
