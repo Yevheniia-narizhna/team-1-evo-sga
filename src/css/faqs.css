@@ -1,11 +1,3 @@
-/* body h3,
-h2,
-p {
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-block-start: 0;
-} */
-
 .faq-section {
   width: 100%;
   padding: 40px 0 64px 0;
@@ -29,10 +21,6 @@ p {
   box-sizing: border-box;
   margin-top: 0;
   border-bottom: 1px solid #daa520;
-}
-
-.faq-item:last-child.is-active .faq-item-text {
-  padding-bottom: 20px;
 }
 
 .faq-item-title {
