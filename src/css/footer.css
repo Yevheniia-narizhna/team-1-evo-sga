@@ -39,6 +39,7 @@
   .footer-cont {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
   }
   .footer-links {
     flex-direction: row;
