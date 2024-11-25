@@ -32,8 +32,9 @@ body {
   background-image: url('../img/icons-background/arrow-left big.png');
   background-size: 408px 408px;
   background-repeat: no-repeat;
-  transform: rotate(90deg); /* Поворачиваем изображение на 90 градусов */
-*/ h1,
+  transform: rotate(90deg); 
+*/
+h1,
 h2,
 h3,
 h4,
