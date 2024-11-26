@@ -67,4 +67,12 @@
   .cont-home-first {
     height: 675px;
   }
+  .text-home-f {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    height: 148px;
+    padding-top: 318px;
+  }
 }
