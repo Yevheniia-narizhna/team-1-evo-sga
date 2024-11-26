@@ -1,0 +1,70 @@
+.cont-home-first {
+  background-image: url('../img/home-first/Group-foto-mob-b.jpg');
+  background-repeat: no-repeat;
+  height: 272px;
+  background-size: contain;
+}
+
+/* .container-flex {
+  display: flex;
+  flex-direction: column;
+  gap: -58px;
+} */
+/* @media screen and (min-width: 321px) {
+  .cont-home-first {
+    background-size: cover;
+  }
+} */
+.text-home-f {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  height: 40px;
+  padding-top: 110px;
+}
+.btn-div-home {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  margin-top: -90px;
+}
+.btn-home {
+  height: 90px;
+  background-color: #8b2d2d;
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+.btn-home:disabled {
+  /* background-image: url('../img/home/Badge (1).png'); */
+  background-color: #d9d9d9;
+  cursor: not-allowed;
+}
+.btn-home:disabled:hover {
+  background-color: #d9d9d9;
+}
+.btn-home:hover {
+  background-color: #812a2a;
+}
+.btn-home:focus {
+  background-color: #511a1a;
+}
+.btn-home-img {
+  width: 288px;
+  height: 90px;
+}
+
+@media screen and (min-width: 485px) {
+  .cont-home-first {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/home-first/Group-foto-des-b.jpg');
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cont-home-first {
+    height: 675px;
+  }
+}
