@@ -75,4 +75,8 @@
     height: 148px;
     padding-top: 318px;
   }
+  .btn-div-home {
+    margin-top: -130px;
+    margin-bottom: 64px;
+  }
 }
