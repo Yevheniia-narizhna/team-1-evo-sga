@@ -14,7 +14,7 @@ svg.header-icon-policy {
   stroke: #daa520;
   align-items: center;
 }
-use {
+.header-icon-policy use {
   fill: transparent;
 }
 
