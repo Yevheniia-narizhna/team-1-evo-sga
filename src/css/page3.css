@@ -33,3 +33,47 @@
   padding-top: 16px;
   padding-bottom: 32px;
 } */
+.term-back-1 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('/img/icons-background/icon _search_.png');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: 0px -100px;
+}
+
+.term-back-2 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('/img/icons-background/puzzle-rotate-big.png');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: -300px 600px;
+}
+
+.term-back-3 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('/img/icons-background/arrow-left90big.png');
+  background-repeat: no-repeat;
+  background-size: 408px 408px;
+  background-position: 40px 1450px;
+}
+
+.term-back-4 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('/img/icons-background/search-big-down.png');
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  background-position: -90px 900px;
+}
+
+.term-back-5 {
+  padding-left: 16px;
+  padding-right: 16px;
+  background-image: url('/img/icons-background/arrow-down.png');
+  background-repeat: no-repeat;
+  background-size: 408px 408px;
+  background-position: 40px 400px;
+}
