@@ -7,7 +7,11 @@
 }
 @media screen and (min-width: 1200px) {
   .gall-container {
+    padding-top: 96px;
     padding-bottom: 96px;
+    background-image: url('../img/icons-background/puzzle-rotate-big.png');
+    background-size: 480px 480px;
+    background-position: 800px -56px;
   }
   /* .arrov-l-proj,
   .arrov-r-proj {

@@ -34,7 +34,12 @@
 
 @media screen and (min-width: 1200px) {
   .contain-features {
-    padding-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 0;
+    background-image: url('/img/icons-background/icon-search_.png');
+    background-position: -80px -80px;
+    background-size: 450px 450px;
+    background-repeat: no-repeat;
   }
   .section_foto {
     width: 1200px;
