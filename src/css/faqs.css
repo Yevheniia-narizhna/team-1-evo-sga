@@ -7,10 +7,6 @@
   background-position: 120px -76px;
 }
 
-.faq-icon path {
-  stroke: #2a4b4e;
-}
-
 .faq-title {
   display: none;
 }
@@ -60,7 +56,6 @@ button#ac-trigger-5.btn-item.ac-trigger {
   width: 34px;
   height: 34px;
   padding: 0;
-  background-color: #daa520;
   border-radius: 50%;
 }
 
@@ -80,6 +75,7 @@ button#ac-trigger-5.btn-item.ac-trigger {
 svg.faq-icon {
   flex-shrink: 0;
   display: block;
+  fill: #daa520;
 }
 
 .faq-item-text {
