@@ -36,10 +36,10 @@
 .term-back-1 {
   padding-left: 16px;
   padding-right: 16px;
-  background-image: url('/img/icons-background/icon _search_.png');
+  background-image: url('/img/icons-background/icon-search_.png');
   background-repeat: no-repeat;
-  background-size: 600px 600px;
-  background-position: 0px -100px;
+  background-size: 480px 480px;
+  background-position: 00px -80px;
 }
 
 .term-back-2 {
