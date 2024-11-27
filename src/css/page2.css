@@ -28,6 +28,10 @@ a.policy-link {
   color: #f5f5dc;
 }
 
+.policy-link:hover {
+  color: #d1ce99;
+}
+
 .policy-link:active {
   color: #daa520;
 }
@@ -42,27 +46,6 @@ svg.header-icon-policy {
 
 .container-policy {
   padding: 40px 0 0 0;
-}
-
-.scrollUp {
-  transform: rotate(180deg);
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  background-color: transparent;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  display: none;
-  transition: opacity 0.3s ease;
-}
-
-.scroll-up {
-  fill: #daa520;
-}
-
-.scroll-up:hover {
-  fill: #f5f5dc;
 }
 
 .policy-title {
@@ -124,11 +107,6 @@ svg.header-icon-policy {
 }
 
 @media screen and (min-width: 1200px) {
-  .scroll-up {
-    width: 75px;
-    height: 75px;
-  }
-
   .container-policy {
     padding: 64px 0 0 0;
   }
