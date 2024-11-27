@@ -1,13 +1,35 @@
-.btn-policy {
-  background-color: transparent;
-  outline: none;
-  border: none;
+.header-policy {
+  display: flex;
+  align-items: center;
 }
 
 .back {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.btn-policy {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  justify-content: center;
+}
+
+a.policy-link-btn {
+  width: 32px;
+  height: 32px;
+}
+
+a.policy-link {
+  text-decoration: none;
+  color: #f5f5dc;
+}
+
+.policy-link:active {
+  color: #daa520;
 }
 
 svg.header-icon-policy {
@@ -75,7 +97,7 @@ svg.header-icon-policy {
   margin-bottom: 0;
 }
 
-.policy-link {
+.policy-link-google {
   text-decoration: underline;
   color: #daa520;
 }
