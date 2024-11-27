@@ -56,6 +56,10 @@
   /* stroke: #daa520; */
   fill: #daa520;
 }
+.arrov-l-proj use:hover,
+.arrov-r-proj use:hover {
+  fill: #d1ce99;
+}
 
 .swiper-pagination-bullet-active {
   background: #daa520 !important;

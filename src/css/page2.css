@@ -119,6 +119,9 @@ svg.header-icon-policy {
   text-decoration: underline;
   color: #daa520;
 }
+.policy-link-google:hover {
+  color: #d1ce99;
+}
 
 @media screen and (min-width: 1200px) {
   .scroll-up {
@@ -127,7 +130,7 @@ svg.header-icon-policy {
   }
 
   .container-policy {
-    padding: 64px 0 96px 0;
+    padding: 64px 0 0 0;
   }
 
   .policy-wrap {
@@ -142,10 +145,10 @@ svg.header-icon-policy {
     text-align: center;
   }
 
-  .policy-text {
+  /* .policy-text {
     padding-left: 97px;
     padding-right: 97px;
-  }
+  } */
 
   .policy-ul {
     padding-left: 116px;
@@ -213,20 +216,22 @@ svg.header-icon-policy {
 
 @media screen and (min-width: 1200px) {
   .pol-back-1 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/search-big-down.png');
     background-repeat: no-repeat;
     background-size: 600px 600px;
     background-position: -100px -70px;
   }
   .pol-back-2 {
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: none;
   }
 
   .pol-back-3 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/arrow-left big.png');
     background-repeat: no-repeat;
     background-size: 480px 480px;
@@ -235,14 +240,14 @@ svg.header-icon-policy {
   }
 
   .pol-back-4 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: none;
   }
 
   .pol-back-5 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/icon-puzzle_.png');
     background-repeat: no-repeat;
     background-size: 600px 600px;
@@ -250,12 +255,12 @@ svg.header-icon-policy {
   }
 
   .pol-back-6 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/arrow-left90big.png');
     background-repeat: no-repeat;
     background-size: 480px 480px;
     background-position: 780px 630px;
-    padding-bottom: 88px;
+    padding-bottom: 96px;
   }
 }

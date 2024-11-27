@@ -23,6 +23,9 @@
 .footer-a {
   display: inline-flex;
 }
+.footer-a:hover {
+  color: #d1ce99;
+}
 .footer-a:active {
   color: #daa520;
 }

@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
+  animation: ani 1.5s forwards;
 }
 .contain-features {
   padding-bottom: 64px;

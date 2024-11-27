@@ -45,11 +45,13 @@
 
 @media screen and (min-width: 1200px) {
   .term-back-1 {
+    padding-left: 0;
+    padding-right: 0;
     background-image: none;
   }
   .term-back-2-des {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/arrow-down.png');
     background-repeat: no-repeat;
     background-size: 480px 480px;
@@ -57,10 +59,12 @@
   }
   .term-back-2 {
     background-image: none;
+    padding-left: 0;
+    padding-right: 0;
   }
   .term-back-3 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/search-big-down.png');
     background-repeat: no-repeat;
     background-size: 600px 600px;
@@ -68,10 +72,12 @@
   }
   .term-back-4 {
     background-image: none;
+    padding-left: 96px;
+    padding-right: 96px;
   }
   .term-back-5 {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 96px;
+    padding-right: 96px;
     background-image: url('/img/icons-background/arrow-left big.png');
     background-repeat: no-repeat;
     background-size: 480px 480px;
