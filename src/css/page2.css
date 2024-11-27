@@ -44,9 +44,26 @@ svg.header-icon-policy {
   padding: 40px 0 0 0;
 }
 
-/* .policy-wrap {
-  margin-bottom: 40px;
-} */
+.scrollUp {
+  transform: rotate(180deg);
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-up {
+  fill: #daa520;
+}
+
+.scroll-up:hover {
+  fill: #f5f5dc;
+}
 
 .policy-title {
   color: #f5f5dc;
@@ -60,6 +77,7 @@ svg.header-icon-policy {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
 .title-marg {
   padding-top: 0;
 }
@@ -103,6 +121,11 @@ svg.header-icon-policy {
 }
 
 @media screen and (min-width: 1200px) {
+  .scroll-up {
+    width: 75px;
+    height: 75px;
+  }
+
   .container-policy {
     padding: 64px 0 96px 0;
   }

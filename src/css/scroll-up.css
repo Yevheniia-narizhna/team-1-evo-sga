@@ -1,0 +1,27 @@
+.scrollUp {
+  transform: rotate(180deg);
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-up {
+  fill: #daa520;
+}
+
+.scroll-up:hover {
+  fill: #f5f5dc;
+}
+
+@media screen and (min-width: 1200px) {
+  .scroll-up {
+    width: 75px;
+    height: 75px;
+  }
+}
