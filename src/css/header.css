@@ -51,10 +51,16 @@ svg.header-icon-menu {
   stroke: #daa520;
 }
 
+svg.header-icon-menu:active {
+  stroke: #d1ce99;
+}
+
 .header-icon-menu-close {
-  color: #daa520;
   stroke: #daa520;
-  fill: #daa520;
+}
+
+.header-icon-menu-close:active {
+  stroke: #d1ce99;
 }
 
 .modal {

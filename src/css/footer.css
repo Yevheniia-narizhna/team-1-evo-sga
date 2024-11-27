@@ -23,6 +23,9 @@
 .footer-a {
   display: inline-flex;
 }
+.footer-a:active {
+  color: #daa520;
+}
 .footer-links {
   display: flex;
   flex-direction: column;
