@@ -210,3 +210,52 @@ svg.header-icon-policy {
   background-position: -160px 870px;
   padding-bottom: 88px;
 }
+
+@media screen and (min-width: 1200px) {
+  .pol-back-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url('/img/icons-background/search-big-down.png');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position: -100px -70px;
+  }
+  .pol-back-2 {
+    background-image: none;
+  }
+
+  .pol-back-3 {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url('/img/icons-background/arrow-left big.png');
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+    background-position: 860px 270px;
+    margin-bottom: 40px;
+  }
+
+  .pol-back-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: none;
+  }
+
+  .pol-back-5 {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url('/img/icons-background/icon-puzzle_.png');
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
+    background-position: -140px 200px;
+  }
+
+  .pol-back-6 {
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url('/img/icons-background/arrow-left90big.png');
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+    background-position: 780px 630px;
+    padding-bottom: 88px;
+  }
+}
