@@ -1,6 +1,6 @@
 .footer {
   background-color: #8b2d2d;
-  padding: 16px 32px 16px 32px;
+  padding: 32px 16px 32px 16px;
   margin: 0 auto;
   font-size: 20px;
   /* justify-content: center;
@@ -40,6 +40,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    padding: 32px 0 32px 0;
+  }
   .text-div {
     display: flex;
   }

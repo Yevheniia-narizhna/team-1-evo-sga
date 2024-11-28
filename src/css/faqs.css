@@ -1,11 +1,12 @@
 .faq-section {
   width: 100%;
-  padding: 40px 0 64px 0;
+  padding: 0 0 64px 0;
   background-image: url('/img/icons-background/icon-search_.png');
   background-repeat: no-repeat;
   background-size: 600px 600px;
   background-position: 120px -76px;
   animation: ani 1.5s forwards;
+  margin-top: 100px;
 }
 
 .faq-item-text {

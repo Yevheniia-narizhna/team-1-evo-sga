@@ -1,4 +1,10 @@
-.cont-home-first {
+/* .cont-home-first {
+  background-image: url('/img/home-first/Group-foto-mob-tb.png');
+  background-repeat: no-repeat;
+  height: 272px;
+  background-size: contain;
+} */
+.section-home-f {
   background-image: url('/img/home-first/Group-foto-mob-tb.png');
   background-repeat: no-repeat;
   height: 272px;
@@ -26,8 +32,8 @@
 .btn-div-home {
   display: flex;
   justify-content: center;
-  margin-bottom: 24px;
-  margin-top: -90px;
+  margin-top: 108px;
+  margin-bottom: 64px;
 }
 .btn-home {
   height: 90px;
@@ -55,15 +61,21 @@
   height: 90px;
 }
 
-@media screen and (min-width: 485px) {
+/* @media screen and (min-width: 485px) {
   .cont-home-first {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('/img/home-first/Group-foto-des-b.jpg');
   }
-}
+} */
 
 @media screen and (min-width: 1200px) {
+  .section-home-f {
+    background-image: url('/img/home-first/Group-foto-des-b.jpg');
+    background-repeat: no-repeat;
+    height: 675px;
+    background-size: contain;
+  }
   .cont-home-first {
     height: 675px;
   }

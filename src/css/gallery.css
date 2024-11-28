@@ -1,12 +1,19 @@
-.gall-container {
+/* .gall-container {
   padding-bottom: 64px;
   background-image: url('/img/icons-background/icon-puzzle_.png');
   background-repeat: no-repeat;
   background-size: 480px 480px;
   background-position: -44px -2px;
+} */
+.section-gal {
+  padding-bottom: 64px;
+  background-image: url('/img/icons-background/icon-puzzle_.png');
+  background-repeat: no-repeat;
+  background-size: 480px 480px;
+  background-position: 44px -2px;
 }
 @media screen and (min-width: 1200px) {
-  .gall-container {
+  .section-gal {
     padding-top: 96px;
     padding-bottom: 96px;
     background-image: url('/img/icons-background/puzzle-rotate-big.png');
